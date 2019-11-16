@@ -47,6 +47,7 @@ contract DiceGame {
                 }
                 game.playerPoints[_player] += currentTurnTotal;
                 currentTurnTotal = 0;
+                game.totalRounds = game.totalRounds + 1;
                 game.playerTurn = changePlayerTurn(_player);
                 return "Next Player Turn";
             }
