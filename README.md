@@ -1,5 +1,5 @@
 # blockchain-dice-game #
-* A simple smart contract for the Dice game for 2 players
+> A simple smart contract for the Dice game for 2 players
 
 ## Rules to play ##
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to ""hold"": 
