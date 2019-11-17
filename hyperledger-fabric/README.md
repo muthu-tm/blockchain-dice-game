@@ -31,7 +31,7 @@ To test or run this smart contract, we need to deploy this in an simple fabric n
 
 ## TODO ##
 * Go Test for the chaincode:
-  * TDD using [go test](https://golang.org/pkg/testing/ "godoc - golang testing")
+  * Handle more use case with TDD [go test](https://golang.org/pkg/testing/ "godoc - golang testing")
   * BDD using [Go Convey](http://goconvey.co/, "GoConvey - Go behavioral Tests")
 * Encryption of data
   * Encrypt the value before storing into the ledger using [fabric bccsp](https://godoc.org/github.com/hyperledger/fabric/bccsp)

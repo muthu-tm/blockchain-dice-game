@@ -26,6 +26,8 @@ func newDice(gameID, player1, player2 string) (dice Dice) {
 func NewGame(gameID, firstPlayer, secondPlayer string) (dice Dice) {
 	dice = newDice(gameID, firstPlayer, secondPlayer)
 
+	// initialize the map
+	dice.PlayerPoints = make(map[string]int)
 	// initialize the first player points
 	dice.PlayerPoints[firstPlayer] = 0
 	// initialize the second player points

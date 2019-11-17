@@ -105,6 +105,7 @@ func play(stub shim.ChaincodeStubInterface, args []string) ([]byte, error) {
 			game.TotalRounds = game.TotalRounds + 1
 			playerPoints := game.PlayerPoints[playerID] + game.CurrentTurnTotal
 			game.PlayerPoints[playerID] = playerPoints
+			game.CurrentTurnTotal = 0
 
 			if playerID == game.FirstPlayer {
 				game.PlayerTurn = 2

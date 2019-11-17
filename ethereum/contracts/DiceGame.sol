@@ -35,7 +35,7 @@ contract DiceGame {
      * @param _stringVal - String value of "hold" to change the player turn
      */
     function play(uint _points, string memory _stringVal) public returns (string memory) {
-        require (game.player1 != address(0), "It seems the GAME have not started yet");
+        require (game.player1 != address(0), "It seems the GAME has not started yet");
         address _player = msg.sender;
         string memory val_hold = "hold";
         if ((_player == game.player1 && game.playerTurn == 1) || (_player == game.player2 && game.playerTurn == 2)) {
@@ -58,12 +58,12 @@ contract DiceGame {
     }
 
     function getPlayerTurn() public view returns (uint) {
-        require (game.player1 != address(0), "It seems the GAME have not started yet");
+        require (game.player1 != address(0), "It seems the GAME has not started yet");
         return game.playerTurn;
     }
 
     function getPlayerPoints(address _player) public view returns (uint) {
-        require (game.player1 != address(0), "It seems the GAME have not started yet");
+        require (game.player1 != address(0), "It seems the GAME has not started yet");
         return game.playerPoints[_player];
     }
 
