@@ -10,7 +10,10 @@
 ---
 
 ## Run ##
-To test or run this smart contract, we need to deploy this in an simple fabric network and call the invoke functions;
+To run this smart contract, we need to deploy this in an simple fabric network and call the invoke functions.
+You can test this with the provided go test scripts; 
+* Move into hyperledger-fabric/go directory
+* $ go test - it will run the test scripts written in the DicaGame_test.go file for you..
 
 ### Steps to play Dice! ###
 * Once After successfull deployment, you can query or invoke the following function from Fabric SDK
