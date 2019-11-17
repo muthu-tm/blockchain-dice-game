@@ -1,8 +1,11 @@
 # Ethereum-Dice-Game #
 > Smartcontract for a simple Dice game
 
-## Language ##
-* Solidity - ^0.5.0
+## Languages Used ##
+
+| S.No   | Language    | Version  |
+|:------:|:-----------:|:--------:|
+| 1      | Solidity    | 0.5.0    |
 
 ---
 

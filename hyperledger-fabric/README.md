@@ -1,8 +1,11 @@
 # Fabric-Dice-Game #
 > Smartcontract for a simple Dice game
 
-## Language ##
-* Go - go1.11
+## Languages Used ##
+
+| S.No   | Language    | Version  |
+|:------:|:-----------:|:--------:|
+| 1      | Go          | go1.11   |
 
 ---
 
@@ -21,10 +24,10 @@ To test or run this smart contract, we need to deploy this in an simple fabric n
   * Function Name: getPlayerTurn, arguments: gameID
 
 #### Arguments Type ####
-_gameID_: string - Each game will have a unique id
-_playerID_: string - Each player has their own unique identity and ID
-_pointsEarned_: uint - Points earned on this dice roll; if 1 no points and the plyer turn gets changed as per the rule
-_hold_: string - "hold" or can be empty
+* _gameID_: string - Each game will have a unique id
+* _playerID_: string - Each player has their own unique identity and ID
+* _pointsEarned_: uint - Points earned on this dice roll; if 1 no points and the plyer turn gets changed as per the rule
+* _hold_: string - "hold" or can be empty
 
 ## TODO ##
 * Go Test for the chaincode:
