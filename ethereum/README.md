@@ -21,7 +21,7 @@ To test or run this smart contract use the [REMIX](https://remix-ide.readthedocs
 ### Steps to play Dice! ###
 * Once After successfull deployment, you will see a new Contract under Deployed Contract side list
 * Expand it and you will see the following public functions to call; **_play_, _setupGame_, _getPlayerPoints_, _getPlayerTurn_**
-* _setupGame_ - First need to setup the game with two player's addresses
-* _play_ - Second start playing the game by providing points scored and string value "hold" to change the player turn
-* _getPlayerPoints_ - Get a player's total points. Points used to summed once the current turn has been finished fully; untill then the currentTurnTotal is calculated separately as per the conditions followed 
-* _getPlayerTurn_ - You can get the current player turn
+* __setupGame__ - First need to setup the game with two player's addresses
+* __play__ - Second start playing the game by providing points scored and string value "hold" to change the player turn
+* __getPlayerPoints__ - Get a player's total points. Points used to summed once the current turn has been finished fully; untill then the currentTurnTotal is calculated separately as per the conditions followed 
+* __getPlayerTurn__ - You can get the current player turn
