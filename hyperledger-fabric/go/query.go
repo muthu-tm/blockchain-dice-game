@@ -8,10 +8,6 @@ import (
 
 // PutState - update the state database
 func PutState(stub shim.ChaincodeStubInterface, key string, value []byte) error {
-
-	// TODO: Encrypt the value before storing into the ledger using bccsp
-	// https://godoc.org/github.com/hyperledger/fabric/bccsp
-
 	return stub.PutState(key, value)
 }
 
